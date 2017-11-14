@@ -1,0 +1,13 @@
+<div>
+<h1  style="text-align:center; margin-top: 10px;"><u>Js Assignment</u></h1>
+<div style="text-align:center; margin-top: 30px;">
+  <input [(ngModel)]="url" type="text" placeholder="Enter Url"/>
+  <button (click)="getReport()">Get Analysis</button>
+</div>
+<div style="margin-top: 100px;">
+<ng2-smart-table [settings]="settings" 
+[source]="source"></ng2-smart-table>
+</div>
+</div>
+
+
